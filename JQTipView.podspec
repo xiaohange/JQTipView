@@ -15,7 +15,7 @@ s.source_files = 'JQTipView/JQTipViewHeader.h'
 #s.resources = 'JQTipView/**/*'
 
 s.subspec 'JQTipView' do |ct|
-ct.source_files = 'JQFramework/JQTipView/**/*'
+ct.source_files = 'JQTipView/JQTipView/**/*'
 ct.requires_arc = false
 end
 
