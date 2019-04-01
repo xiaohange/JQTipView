@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFCC4FC224F12BB00CA02EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC4FB224F12BB00CA02EB /* AppDelegate.m */; };
+		3CFCC4FF224F12BB00CA02EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC4FE224F12BB00CA02EB /* ViewController.m */; };
+		3CFCC502224F12BB00CA02EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCC500224F12BB00CA02EB /* Main.storyboard */; };
+		3CFCC504224F12BC00CA02EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCC503224F12BC00CA02EB /* Assets.xcassets */; };
+		3CFCC507224F12BC00CA02EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCC505224F12BC00CA02EB /* LaunchScreen.storyboard */; };
+		3CFCC50A224F12BC00CA02EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC509224F12BC00CA02EB /* main.m */; };
+		3CFCC514224F12BC00CA02EB /* JQTipViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC513224F12BC00CA02EB /* JQTipViewDemoTests.m */; };
+		3CFCC51F224F12BC00CA02EB /* JQTipViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC51E224F12BC00CA02EB /* JQTipViewDemoUITests.m */; };
+		3CFCC54C2251C11200CA02EB /* NSString+HIExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC5402251C11200CA02EB /* NSString+HIExtern.m */; };
+		3CFCC54D2251C11200CA02EB /* HIModelWaitingBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC5412251C11200CA02EB /* HIModelWaitingBgView.m */; };
+		3CFCC54E2251C11200CA02EB /* HIUIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC5422251C11200CA02EB /* HIUIViewHelper.m */; };
+		3CFCC54F2251C11200CA02EB /* JQTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC5452251C11200CA02EB /* JQTipView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3CFCC5502251C11200CA02EB /* UIView+HIExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC5482251C11200CA02EB /* UIView+HIExtern.m */; };
+		3CFCC5512251C11200CA02EB /* HIDialogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC54B2251C11200CA02EB /* HIDialogManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CFCC510224F12BC00CA02EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFCC4EF224F12BB00CA02EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFCC4F6224F12BB00CA02EB;
+			remoteInfo = JQTipViewDemo;
+		};
+		3CFCC51B224F12BC00CA02EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFCC4EF224F12BB00CA02EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFCC4F6224F12BB00CA02EB;
+			remoteInfo = JQTipViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CFCC4F7224F12BB00CA02EB /* JQTipViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQTipViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFCC4FA224F12BB00CA02EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CFCC4FB224F12BB00CA02EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CFCC4FD224F12BB00CA02EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CFCC4FE224F12BB00CA02EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CFCC501224F12BB00CA02EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CFCC503224F12BC00CA02EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFCC506224F12BC00CA02EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CFCC508224F12BC00CA02EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFCC509224F12BC00CA02EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFCC50F224F12BC00CA02EB /* JQTipViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQTipViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFCC513224F12BC00CA02EB /* JQTipViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQTipViewDemoTests.m; sourceTree = "<group>"; };
+		3CFCC515224F12BC00CA02EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFCC51A224F12BC00CA02EB /* JQTipViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQTipViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFCC51E224F12BC00CA02EB /* JQTipViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQTipViewDemoUITests.m; sourceTree = "<group>"; };
+		3CFCC520224F12BC00CA02EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFCC5402251C11200CA02EB /* NSString+HIExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HIExtern.m"; sourceTree = "<group>"; };
+		3CFCC5412251C11200CA02EB /* HIModelWaitingBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIModelWaitingBgView.m; sourceTree = "<group>"; };
+		3CFCC5422251C11200CA02EB /* HIUIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIViewHelper.m; sourceTree = "<group>"; };
+		3CFCC5432251C11200CA02EB /* UIView+HIExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HIExtern.h"; sourceTree = "<group>"; };
+		3CFCC5442251C11200CA02EB /* HIDialogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDialogManager.h; sourceTree = "<group>"; };
+		3CFCC5452251C11200CA02EB /* JQTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQTipView.m; sourceTree = "<group>"; };
+		3CFCC5462251C11200CA02EB /* HIModelWaitingBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIModelWaitingBgView.h; sourceTree = "<group>"; };
+		3CFCC5472251C11200CA02EB /* NSString+HIExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HIExtern.h"; sourceTree = "<group>"; };
+		3CFCC5482251C11200CA02EB /* UIView+HIExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HIExtern.m"; sourceTree = "<group>"; };
+		3CFCC5492251C11200CA02EB /* HIUIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIViewHelper.h; sourceTree = "<group>"; };
+		3CFCC54A2251C11200CA02EB /* JQTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQTipView.h; sourceTree = "<group>"; };
+		3CFCC54B2251C11200CA02EB /* HIDialogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDialogManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFCC4F4224F12BB00CA02EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCC50C224F12BC00CA02EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCC517224F12BC00CA02EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFCC4EE224F12BB00CA02EB = {
+			isa = PBXGroup;
+			children = (
+				3CFCC53F2251C11200CA02EB /* JQTipView */,
+				3CFCC4F9224F12BB00CA02EB /* JQTipViewDemo */,
+				3CFCC512224F12BC00CA02EB /* JQTipViewDemoTests */,
+				3CFCC51D224F12BC00CA02EB /* JQTipViewDemoUITests */,
+				3CFCC4F8224F12BB00CA02EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFCC4F8224F12BB00CA02EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCC4F7224F12BB00CA02EB /* JQTipViewDemo.app */,
+				3CFCC50F224F12BC00CA02EB /* JQTipViewDemoTests.xctest */,
+				3CFCC51A224F12BC00CA02EB /* JQTipViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFCC4F9224F12BB00CA02EB /* JQTipViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCC4FA224F12BB00CA02EB /* AppDelegate.h */,
+				3CFCC4FB224F12BB00CA02EB /* AppDelegate.m */,
+				3CFCC4FD224F12BB00CA02EB /* ViewController.h */,
+				3CFCC4FE224F12BB00CA02EB /* ViewController.m */,
+				3CFCC500224F12BB00CA02EB /* Main.storyboard */,
+				3CFCC503224F12BC00CA02EB /* Assets.xcassets */,
+				3CFCC505224F12BC00CA02EB /* LaunchScreen.storyboard */,
+				3CFCC508224F12BC00CA02EB /* Info.plist */,
+				3CFCC509224F12BC00CA02EB /* main.m */,
+			);
+			path = JQTipViewDemo;
+			sourceTree = "<group>";
+		};
+		3CFCC512224F12BC00CA02EB /* JQTipViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCC513224F12BC00CA02EB /* JQTipViewDemoTests.m */,
+				3CFCC515224F12BC00CA02EB /* Info.plist */,
+			);
+			path = JQTipViewDemoTests;
+			sourceTree = "<group>";
+		};
+		3CFCC51D224F12BC00CA02EB /* JQTipViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCC51E224F12BC00CA02EB /* JQTipViewDemoUITests.m */,
+				3CFCC520224F12BC00CA02EB /* Info.plist */,
+			);
+			path = JQTipViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		3CFCC53F2251C11200CA02EB /* JQTipView */ = {
+			isa = PBXGroup;
+			children = (
+				3CFCC5442251C11200CA02EB /* HIDialogManager.h */,
+				3CFCC54B2251C11200CA02EB /* HIDialogManager.m */,
+				3CFCC5462251C11200CA02EB /* HIModelWaitingBgView.h */,
+				3CFCC5412251C11200CA02EB /* HIModelWaitingBgView.m */,
+				3CFCC5492251C11200CA02EB /* HIUIViewHelper.h */,
+				3CFCC5422251C11200CA02EB /* HIUIViewHelper.m */,
+				3CFCC54A2251C11200CA02EB /* JQTipView.h */,
+				3CFCC5452251C11200CA02EB /* JQTipView.m */,
+				3CFCC5472251C11200CA02EB /* NSString+HIExtern.h */,
+				3CFCC5402251C11200CA02EB /* NSString+HIExtern.m */,
+				3CFCC5432251C11200CA02EB /* UIView+HIExtern.h */,
+				3CFCC5482251C11200CA02EB /* UIView+HIExtern.m */,
+			);
+			path = JQTipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFCC4F6224F12BB00CA02EB /* JQTipViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFCC523224F12BC00CA02EB /* Build configuration list for PBXNativeTarget "JQTipViewDemo" */;
+			buildPhases = (
+				3CFCC4F3224F12BB00CA02EB /* Sources */,
+				3CFCC4F4224F12BB00CA02EB /* Frameworks */,
+				3CFCC4F5224F12BB00CA02EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQTipViewDemo;
+			productName = JQTipViewDemo;
+			productReference = 3CFCC4F7224F12BB00CA02EB /* JQTipViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CFCC50E224F12BC00CA02EB /* JQTipViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFCC526224F12BC00CA02EB /* Build configuration list for PBXNativeTarget "JQTipViewDemoTests" */;
+			buildPhases = (
+				3CFCC50B224F12BC00CA02EB /* Sources */,
+				3CFCC50C224F12BC00CA02EB /* Frameworks */,
+				3CFCC50D224F12BC00CA02EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFCC511224F12BC00CA02EB /* PBXTargetDependency */,
+			);
+			name = JQTipViewDemoTests;
+			productName = JQTipViewDemoTests;
+			productReference = 3CFCC50F224F12BC00CA02EB /* JQTipViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CFCC519224F12BC00CA02EB /* JQTipViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFCC529224F12BC00CA02EB /* Build configuration list for PBXNativeTarget "JQTipViewDemoUITests" */;
+			buildPhases = (
+				3CFCC516224F12BC00CA02EB /* Sources */,
+				3CFCC517224F12BC00CA02EB /* Frameworks */,
+				3CFCC518224F12BC00CA02EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFCC51C224F12BC00CA02EB /* PBXTargetDependency */,
+			);
+			name = JQTipViewDemoUITests;
+			productName = JQTipViewDemoUITests;
+			productReference = 3CFCC51A224F12BC00CA02EB /* JQTipViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFCC4EF224F12BB00CA02EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Hari;
+				TargetAttributes = {
+					3CFCC4F6224F12BB00CA02EB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3CFCC50E224F12BC00CA02EB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3CFCC4F6224F12BB00CA02EB;
+					};
+					3CFCC519224F12BC00CA02EB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3CFCC4F6224F12BB00CA02EB;
+					};
+				};
+			};
+			buildConfigurationList = 3CFCC4F2224F12BB00CA02EB /* Build configuration list for PBXProject "JQTipViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CFCC4EE224F12BB00CA02EB;
+			productRefGroup = 3CFCC4F8224F12BB00CA02EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFCC4F6224F12BB00CA02EB /* JQTipViewDemo */,
+				3CFCC50E224F12BC00CA02EB /* JQTipViewDemoTests */,
+				3CFCC519224F12BC00CA02EB /* JQTipViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFCC4F5224F12BB00CA02EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCC507224F12BC00CA02EB /* LaunchScreen.storyboard in Resources */,
+				3CFCC504224F12BC00CA02EB /* Assets.xcassets in Resources */,
+				3CFCC502224F12BB00CA02EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCC50D224F12BC00CA02EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCC518224F12BC00CA02EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFCC4F3224F12BB00CA02EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCC54C2251C11200CA02EB /* NSString+HIExtern.m in Sources */,
+				3CFCC4FF224F12BB00CA02EB /* ViewController.m in Sources */,
+				3CFCC50A224F12BC00CA02EB /* main.m in Sources */,
+				3CFCC54E2251C11200CA02EB /* HIUIViewHelper.m in Sources */,
+				3CFCC54F2251C11200CA02EB /* JQTipView.m in Sources */,
+				3CFCC4FC224F12BB00CA02EB /* AppDelegate.m in Sources */,
+				3CFCC54D2251C11200CA02EB /* HIModelWaitingBgView.m in Sources */,
+				3CFCC5512251C11200CA02EB /* HIDialogManager.m in Sources */,
+				3CFCC5502251C11200CA02EB /* UIView+HIExtern.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCC50B224F12BC00CA02EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCC514224F12BC00CA02EB /* JQTipViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFCC516224F12BC00CA02EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFCC51F224F12BC00CA02EB /* JQTipViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CFCC511224F12BC00CA02EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFCC4F6224F12BB00CA02EB /* JQTipViewDemo */;
+			targetProxy = 3CFCC510224F12BC00CA02EB /* PBXContainerItemProxy */;
+		};
+		3CFCC51C224F12BC00CA02EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFCC4F6224F12BB00CA02EB /* JQTipViewDemo */;
+			targetProxy = 3CFCC51B224F12BC00CA02EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CFCC500224F12BB00CA02EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFCC501224F12BB00CA02EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CFCC505224F12BC00CA02EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFCC506224F12BC00CA02EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFCC521224F12BC00CA02EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CFCC522224F12BC00CA02EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFCC524224F12BC00CA02EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQTipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQTipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CFCC525224F12BC00CA02EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQTipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQTipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CFCC527224F12BC00CA02EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQTipViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQTipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQTipViewDemo.app/JQTipViewDemo";
+			};
+			name = Debug;
+		};
+		3CFCC528224F12BC00CA02EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQTipViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQTipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQTipViewDemo.app/JQTipViewDemo";
+			};
+			name = Release;
+		};
+		3CFCC52A224F12BC00CA02EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQTipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQTipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQTipViewDemo;
+			};
+			name = Debug;
+		};
+		3CFCC52B224F12BC00CA02EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
+				INFOPLIST_FILE = JQTipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.JQTipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JQTipViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFCC4F2224F12BB00CA02EB /* Build configuration list for PBXProject "JQTipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCC521224F12BC00CA02EB /* Debug */,
+				3CFCC522224F12BC00CA02EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFCC523224F12BC00CA02EB /* Build configuration list for PBXNativeTarget "JQTipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCC524224F12BC00CA02EB /* Debug */,
+				3CFCC525224F12BC00CA02EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFCC526224F12BC00CA02EB /* Build configuration list for PBXNativeTarget "JQTipViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCC527224F12BC00CA02EB /* Debug */,
+				3CFCC528224F12BC00CA02EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFCC529224F12BC00CA02EB /* Build configuration list for PBXNativeTarget "JQTipViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFCC52A224F12BC00CA02EB /* Debug */,
+				3CFCC52B224F12BC00CA02EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFCC4EF224F12BB00CA02EB /* Project object */;
+}
