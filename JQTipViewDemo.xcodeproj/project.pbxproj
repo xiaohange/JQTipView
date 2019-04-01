@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C13B3E9225204480035471F /* JQTipViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQTipViewHeader.h; sourceTree = "<group>"; };
 		3CFCC4F7224F12BB00CA02EB /* JQTipViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQTipViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFCC4FA224F12BB00CA02EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CFCC4FB224F12BB00CA02EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 		3CFCC53F2251C11200CA02EB /* JQTipView */ = {
 			isa = PBXGroup;
 			children = (
+				3C13B3E9225204480035471F /* JQTipViewHeader.h */,
 				3CFCC5522251E15E00CA02EB /* JQTipView */,
 				3CFCC5442251C11200CA02EB /* HIDialogManager.h */,
 				3CFCC54B2251C11200CA02EB /* HIDialogManager.m */,
