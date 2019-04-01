@@ -9,16 +9,10 @@ s.platform     = :ios, "8.0"
 s.ios.deployment_target = "8.0"
 s.source       = { :git => "https://github.com/xiaohange/JQTipView.git", :tag => s.version.to_s }
 s.social_media_url = 'https://weibo.com/hjq995'
-s.requires_arc = true
-s.source_files = 'JQTipView/JQTipViewHeader.h'
 
 s.resources = 'JQTipView/**/*'
-
-s.subspec 'JQTipView' do |ct|
-ct.source_files = 'JQTipView/JQTipView/**/*'
-ct.requires_arc = false
-end
-
+s.requires_arc = false
+s.requires_arc = ['JQTipView/JQTipView/**/*.m']
 
 end
 

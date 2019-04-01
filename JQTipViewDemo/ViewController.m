@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "JQTipViewHeader.h"
+#import "JQTipView.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-         [JQTipView showWithTip:@"hello 打卡目前我们跑车么全面所吃完没1"];
+         [JQTipView showWithTip:@"hello 这是一个换行测试哦，记得一定要加0.1延迟哦"];
     });
 
 }

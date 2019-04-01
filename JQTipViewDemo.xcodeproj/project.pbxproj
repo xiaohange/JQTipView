@@ -69,7 +69,6 @@
 		3CFCC5492251C11200CA02EB /* HIUIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIViewHelper.h; sourceTree = "<group>"; };
 		3CFCC54A2251C11200CA02EB /* JQTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQTipView.h; sourceTree = "<group>"; };
 		3CFCC54B2251C11200CA02EB /* HIDialogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDialogManager.m; sourceTree = "<group>"; };
-		3CFCC5542251E2AD00CA02EB /* JQTipViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQTipViewHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +154,6 @@
 		3CFCC53F2251C11200CA02EB /* JQTipView */ = {
 			isa = PBXGroup;
 			children = (
-				3CFCC5542251E2AD00CA02EB /* JQTipViewHeader.h */,
 				3CFCC5522251E15E00CA02EB /* JQTipView */,
 				3CFCC5442251C11200CA02EB /* HIDialogManager.h */,
 				3CFCC54B2251C11200CA02EB /* HIDialogManager.m */,
