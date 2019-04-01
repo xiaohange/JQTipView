@@ -12,7 +12,7 @@ s.social_media_url = 'https://weibo.com/hjq995'
 s.requires_arc = true
 s.source_files = 'JQTipView/JQTipViewHeader.h'
 
-#s.resources = 'JQTipView/**/*'
+s.resources = 'JQTipView/**/*'
 
 s.subspec 'JQTipView' do |ct|
 ct.source_files = 'JQTipView/JQTipView/**/*'
