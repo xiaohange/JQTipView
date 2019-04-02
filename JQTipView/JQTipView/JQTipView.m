@@ -7,11 +7,8 @@
 //
 
 #import "JQTipView.h"
-#import "HIUIViewHelper.h"
-#import "HIDialogManager.h"
 #import <UIKit/UIKit.h>
-#import "UIView+HIExtern.h"
-#import "NSString+HIExtern.h"
+#import "HIToolsHeader.h"
 
 #define DefaulttipAreaHeight  44
 #define MaxTipAreaWidth_iPhone       240

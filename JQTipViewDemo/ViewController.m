@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "JQTipView.h"
+#import "JQTipViewHeader.h"
 
 @interface ViewController ()
 
