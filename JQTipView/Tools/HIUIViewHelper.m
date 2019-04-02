@@ -8,7 +8,6 @@
 
 #import "HIUIViewHelper.h"
 #import <QuartzCore/QuartzCore.h>
-#import "JQTipView.h"
 
 @implementation HIUIViewHelper
 
@@ -79,11 +78,6 @@
     }
     CALayer *layer = view.layer;
     layer.cornerRadius = radius;
-}
-
-+ (void)showConfirmAlertWithMessage:(NSString *)message
-{
-    [JQTipView showWithTip:message];
 }
 
 

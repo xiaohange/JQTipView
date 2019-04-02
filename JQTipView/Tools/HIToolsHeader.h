@@ -11,8 +11,8 @@
 
 #import "HIDialogManager.h"
 #import "HIModelWaitingBgView.h"
-#import "HIUIViewHelper.h"
 #import "NSString+HIExtern.h"
 #import "UIView+HIExtern.h"
+#import "HIUIViewHelper.h"
 
 #endif /* HIToolsHeader_h */
