@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQTipView"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.summary      = "Easy tost."
 s.homepage     = "https://github.com/xiaohange/JQTipView"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -14,7 +14,6 @@ s.source_files = 'JQTipView/JQTipViewHeader.h'
 
 s.subspec 'Tools' do |ph|
 ph.source_files = 'JQTipView/Tools/**/*'
-ph.dependency 'JQTipView/JQTipView'
 end
 
 
